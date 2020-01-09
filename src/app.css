@@ -1,0 +1,15 @@
+.bg{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration-style: initial;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.col{
+    color: rgb(137, 31, 224);
+    text-align:justify;
+    text-decoration-style: initial;
+    font-style: italic;
+    text-transform: capitalize;  
+}
