@@ -1,17 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
 //import Anamika from "./props";
-import Anamika from "./state";
+//import Anamika from "./state";
 //import elementjsx from "./jsx";
 //import Anamika from "./app";
 //import App2 from "./com";
 //import Student from "./student";
 //const ana=<h1>Hello Anamika</h1>;
 // import Compose from "./composing";
+
+// updating phase of lifecycle
 //import New from "./new";
 
-import Main from './main'
-import Unmount from './unmount'
+//import Main from './main'
+//import Unmount from './unmount'
+
+import Hooks from './hooks';
 
 
 /* for element */
@@ -36,5 +40,6 @@ import Unmount from './unmount'
 
 //ReactDOM.render(<New    name="Anamika"/>, document.getElementById('root'));
 
-ReactDOM.render(<Main />, document.getElementById('root'));
-ReactDOM.render(<Unmount />, document.getElementById('ana'));
+//ReactDOM.render(<Main />, document.getElementById('root'));
+//ReactDOM.render(<Unmount />, document.getElementById('ana'));
+ReactDOM.render(<Hooks/>,document.getElementById('root'));
