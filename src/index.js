@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from './app'
 //import Anamika from "./props";
 //import Anamika from "./state";
 //import elementjsx from "./jsx";
@@ -42,4 +43,7 @@ import Hooks from './hooks';
 
 //ReactDOM.render(<Main />, document.getElementById('root'));
 //ReactDOM.render(<Unmount />, document.getElementById('ana'));
-ReactDOM.render(<Hooks/>,document.getElementById('root'));
+//ReactDOM.render(<Hooks/>,document.getElementById('root'));
+
+// for custom hooks
+ReactDOM.render(<App/>,document.getElementById('root'));
