@@ -15,12 +15,33 @@ export default class conditionIfElse extends Component {
     }
     render() {
         const isLoggedIn=this.state.isLoggedIn;
-        if(isLoggedIn)
+        // if(isLoggedIn)
+        // {
+        //     return <UserNew  clickData={this.handleLogout} />;
+        // }
+        // else{
+        //     return <GuestNew clickData={this.handleLogin} />;
+        // }
+
+        // IIFE function called self(Automatic)
+
+        return(
+            <div>
+                {
+                    (
+                        ()=>{
+                            if(isLoggedIn)
         {
             return <UserNew  clickData={this.handleLogout} />;
         }
         else{
             return <GuestNew clickData={this.handleLogin} />;
         }
+
+                        }
+                    )()
+                }
+            </div>
+        )
     }
 }
