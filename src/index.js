@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from './app'
+//import App from './app'
+//import Condition from './condition';
+//import ConditionAnd from './conditionAnd'
 //import Anamika from "./props";
 //import Anamika from "./state";
 //import elementjsx from "./jsx";
@@ -16,7 +18,7 @@ import App from './app'
 //import Main from './main'
 //import Unmount from './unmount'
 
-import Hooks from './hooks';
+//import Hooks from './hooks';
 
 
 /* for element */
@@ -46,4 +48,14 @@ import Hooks from './hooks';
 //ReactDOM.render(<Hooks/>,document.getElementById('root'));
 
 // for custom hooks
-ReactDOM.render(<App/>,document.getElementById('root'));
+//ReactDOM.render(<App/>,document.getElementById('root'));
+
+//  Conditional statement
+//ReactDOM.render(<Condition  consumer={true}  />,document.getElementById("root"));
+
+// inline condition
+//ReactDOM.render(<ConditionAnd  primemember={true} />,document.getElementById("root"));
+
+
+import ConditionIfElse from './conditionIfElse';
+ReactDOM.render(<ConditionIfElse />,document.getElementById("root"));
