@@ -57,5 +57,10 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<ConditionAnd  primemember={true} />,document.getElementById("root"));
 
 
-import ConditionIfElse from './conditionIfElse';
-ReactDOM.render(<ConditionIfElse />,document.getElementById("root"));
+// import ConditionIfElse from './conditionIfElse';
+// ReactDOM.render(<ConditionIfElse />,document.getElementById("root"));
+
+
+import List from './list';
+const arr=[11,12,13,14,15];
+ReactDOM.render(<List numbers={arr} />,document.getElementById("root"));
