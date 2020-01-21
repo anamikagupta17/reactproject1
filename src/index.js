@@ -61,6 +61,24 @@ import ReactDOM from "react-dom";
 // ReactDOM.render(<ConditionIfElse />,document.getElementById("root"));
 
 
-import List from './list';
-const arr=[11,12,13,14,15];
-ReactDOM.render(<List numbers={arr} />,document.getElementById("root"));
+// import List from './list';
+// const arr=[11,12,13,14,15];
+// ReactDOM.render(<List numbers={arr} />,document.getElementById("root"));
+
+
+
+// import Inlinecss from './inlinecss'
+// ReactDOM.render(<Inlinecss />,document.getElementById("root"));
+
+// import Externalcss from './externalcss'
+// ReactDOM.render(<Externalcss />,document.getElementById("root"));
+
+
+// import Modulecss from "./modulecss";
+// ReactDOM.render(<Modulecss />,document.getElementById("root"));
+
+
+
+import Assets from "./assets";
+ReactDOM.render(<Assets />,document.getElementById("root"));
+
