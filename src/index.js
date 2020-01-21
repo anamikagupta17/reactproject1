@@ -79,6 +79,12 @@ import ReactDOM from "react-dom";
 
 
 
-import Assets from "./assets";
-ReactDOM.render(<Assets />,document.getElementById("root"));
+// import Assets from "./assets";
+// ReactDOM.render(<Assets />,document.getElementById("root"));
+
+
+import Bootstrap from "./bootstrap";
+ReactDOM.render(<Bootstrap />,document.getElementById("root"));
+
+
 
