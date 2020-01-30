@@ -83,8 +83,15 @@ import ReactDOM from "react-dom";
 // ReactDOM.render(<Assets />,document.getElementById("root"));
 
 
-import Bootstrap from "./bootstrap";
-ReactDOM.render(<Bootstrap />,document.getElementById("root"));
+// import Bootstrap from "./bootstrap";
+// ReactDOM.render(<Bootstrap />,document.getElementById("root"));
 
 
+// // single input form
+// import Form from "./form";
+// ReactDOM.render(<Form />,document.getElementById("root"));
+
+// Multiple input form
+import Form2 from "./form2";
+ReactDOM.render(<Form2 />,document.getElementById("root"));
 
