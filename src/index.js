@@ -92,6 +92,18 @@ import ReactDOM from "react-dom";
 // ReactDOM.render(<Form />,document.getElementById("root"));
 
 // Multiple input form
-import Form2 from "./form2";
-ReactDOM.render(<Form2 />,document.getElementById("root"));
+// import Form2 from "./form2";
+// ReactDOM.render(<Form2 />,document.getElementById("root"));
+
+
+
+
+// // Uncontrolled  input form
+// import Form3 from "./form3";
+// ReactDOM.render(<Form3 />,document.getElementById("root"));
+
+// Uncontrolled  callback ref
+import Ref from "./ref";
+ReactDOM.render(<Ref />,document.getElementById("root"));
+
 

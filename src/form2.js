@@ -17,7 +17,7 @@ export default class Form2 extends Component {
         this.setState({[e.target.name]:value})
     }
     handleSubmit= e =>{
-        console.log(e.target[0].value);
+        console.log(e.target.name);   //e.target[0].value
         e.preventDefault();   // prevent default action of event
     }
 
