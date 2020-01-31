@@ -102,8 +102,10 @@ import ReactDOM from "react-dom";
 // import Form3 from "./form3";
 // ReactDOM.render(<Form3 />,document.getElementById("root"));
 
-// Uncontrolled  callback ref
-import Ref from "./ref";
-ReactDOM.render(<Ref />,document.getElementById("root"));
+// 
+
+// Context Api
+import Contextapi1 from "./contextapi1";
+ReactDOM.render(<Contextapi1 />,document.getElementById("root"));
 
 
