@@ -105,7 +105,18 @@ import ReactDOM from "react-dom";
 // 
 
 // Context Api
-import Contextapi1 from "./contextapi1";
-ReactDOM.render(<Contextapi1 />,document.getElementById("root"));
+// import Contextapi1 from "./contextapi1";
+// ReactDOM.render(<Contextapi1 />,document.getElementById("root"));
+
+// higher order component
+
+// import Hoc from "./hoc";
+// ReactDOM.render(<Hoc />,document.getElementById("root"));
+
+// error bounderies
+
+import Errorboundries from "./Errorboundries";
+ReactDOM.render(<Errorboundries />,document.getElementById("root"));
+
 
 
