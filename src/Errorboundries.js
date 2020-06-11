@@ -16,9 +16,9 @@ export default class Errorboundries extends Component {
                 <Image imgname={Image2} /><br/>
                 </Error>
 
-                <Error> 
+                {/* <Error> 
                 <Image imgname="NoImage" /><br/>
-                </Error>
+    </Error> */}
             </div>
         )
     }

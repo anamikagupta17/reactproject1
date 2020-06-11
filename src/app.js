@@ -1,9 +1,9 @@
 import React, { Component,Fragment } from 'react';
-import useCustomFunction from './custom';
+
 
 //let ana=<h1> Hello Anamika!</h1>;
 
-class Anamika extends Component {
+class App extends Component {
     render() {
       //return <h2>Hello Anamika Again  by Component!</h2>;  // for single element
       //return React.createElement("h1", null, " Hello Anamika!");
@@ -25,20 +25,4 @@ class Anamika extends Component {
       );
     }
   }
-
-
-function App()
-{
-  const data=useCustomFunction();
-  const data1=useCustomFunction();
-  return(
-    <React.Fragment>
-<h1>Count up : {data.count}</h1>
-<button onClick={data.handlecount} type="button">Incement</button>
-<h1>Count up : {data1.count}</h1>
-<button onClick={data1.handlecount} type="button">Incement</button>
-    </React.Fragment>
-  )
-}
-//export default Anamika;
 export default App;

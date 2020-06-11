@@ -1,27 +1,11 @@
-import React from "react";
+
 import ReactDOM from "react-dom";
-//import App from './app'
-//import Condition from './condition';
-//import ConditionAnd from './conditionAnd'
-//import Anamika from "./props";
-//import Anamika from "./state";
-//import elementjsx from "./jsx";
-//import Anamika from "./app";
-//import App2 from "./com";
-//import Student from "./student";
-//const ana=<h1>Hello Anamika</h1>;
-// import Compose from "./composing";
-
-// updating phase of lifecycle
-//import New from "./new";
-
-//import Main from './main'
-//import Unmount from './unmount'
-
-//import Hooks from './hooks';
+import routing from './routes';
+import './index.css'
 
 
 /* for element */
+//const ana=<h1>Hello Anamika</h1>;
 //ReactDOM.render(ana, document.getElementById('root'));
 
 /*  component   */
@@ -34,9 +18,11 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<Student name="Anmaika"/>, document.getElementById('root'));
 
 /* for css  with jsx*/
+//import elementjsx from "./jsx";
 //ReactDOM.render(elementjsx, document.getElementById('root'));
 
 /* FOR PROPS */
+//import Props from "./props";
 //ReactDOM.render(<Anamika name="Anamika Gupta" roll="134731006" college="G.C.R.C. Group of Institution" >Child element {100+5}</Anamika>, document.getElementById('root'));
 
 //ReactDOM.render(<Compose />, document.getElementById('root'));
@@ -102,21 +88,23 @@ import ReactDOM from "react-dom";
 // import Form3 from "./form3";
 // ReactDOM.render(<Form3 />,document.getElementById("root"));
 
-// 
+
 
 // Context Api
 // import Contextapi1 from "./contextapi1";
 // ReactDOM.render(<Contextapi1 />,document.getElementById("root"));
 
 // higher order component
-
 // import Hoc from "./hoc";
 // ReactDOM.render(<Hoc />,document.getElementById("root"));
 
 // error bounderies
 
-import Errorboundries from "./Errorboundries";
-ReactDOM.render(<Errorboundries />,document.getElementById("root"));
+// import Errorboundries from "./Errorboundries";
+// ReactDOM.render(<Errorboundries />,document.getElementById("root"));
+
+ReactDOM.render(routing,document.getElementById("root"));
+
 
 
 
