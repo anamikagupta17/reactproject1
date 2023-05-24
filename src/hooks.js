@@ -3,14 +3,14 @@ import  React,{ useState, useEffect } from 'react';
 function Hooks(){
    const nameStateVariable= useState("Anamika");  // 1st method
    const name=nameStateVariable[0];
-   const [namenew,SetNamenew]=useState("Adarsh") //2nd method
+   const [namenew,SetNamenew]=useState("ana") //2nd method
    const [roll ,setRoll]=useState(101);
    const [count,setCount]=useState(1);
    const [count1,setCount1]=useState(10);
 
    const changeValue=()=>{
     nameStateVariable[1]("Parul");
-    SetNamenew("Shubham");
+    SetNamenew("Pramod");
     setRoll(102);
    }
 

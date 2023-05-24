@@ -45,6 +45,9 @@ import Contextapi1 from "./contextapi1";
 // error bounderies
  import Errorboundries from "./Errorboundries";
 
+ import Sum from './sum';
+ import API from './api';
+
 
 const routing = (
     <Router>
@@ -73,7 +76,8 @@ const routing = (
         <Route path="/Modulecss" component={Modulecss} />
         <Route path="/Assets" component={Assets} />
         <Route path="/Bootstrap" component={Bootstrap} />
-        
+        <Route path="/sum" component={Sum} />
+        <Route path="/api" component={API} />
 
       </div>
     </Router>

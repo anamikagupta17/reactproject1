@@ -29,6 +29,8 @@ class Home extends Component {
           <li><Link to="/Modulecss">Modulecss</Link></li>
           <li><Link to="/Assets">Assets</Link></li>
           <li><Link to="/Bootstrap">Bootstrap</Link></li>
+          <li><Link to="/sum">Sum</Link></li>
+          <li><Link to="/api">API</Link></li>
          </ul>
 
         
